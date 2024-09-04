@@ -13,7 +13,7 @@
     width: 100%;
     flex-wrap: wrap;
     overflow: hidden;
-    background: linear-gradient(to bottom, rgb(243, 190, 128), rgb(241, 252, 115), rgb(150, 163, 133));
+    background: linear-gradient(to bottom, rgb(243, 190, 128), rgb(234, 242, 143) 70%, rgba(203, 221, 180, 0.8));
 }
 
 
@@ -43,7 +43,7 @@
 
 .container span:hover::before{
     transition: 0s;
-    opacity: 0.8;
+    opacity: 0.4;
     width: 1000%;
     height: 1000%;
 }
